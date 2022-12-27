@@ -1,0 +1,73 @@
+@media screen and (max-width: 480px) {
+  
+.list li {
+  width: 100%;
+}
+
+/* Navbar */
+#main-nav .container {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+}
+#main-nav .logo {
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+
+#main-nav .social {
+  grid-row: 2 / span 1;
+  margin-top: 0.4rem;
+}
+
+#main-nav ul {
+  grid-row: 2 / span 1;
+}
+
+/* Showcase */
+#showcase .showcase-container {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+/* Home Articles */
+#home-articles .articles-container,
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child {
+  display: block;
+}
+
+#home-articles .articles-container > * {
+  margin-bottom: 1rem;
+}
+
+/* Page Container */
+.page-container {
+  display: block;
+}
+
+.page-container > * {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+#main-footer .footer-container {
+  display: block;
+}
+
+#main-footer img {
+  width: 100%;
+}
+
+#main-footer * {
+  text-align: center;
+}
+
+#main-footer .footer-container > * {
+  margin: 1rem 0;
+}
+
+#main-footer .footer-container input[type="email"],
+#main-footer .footer-container input[type="submit"] {
+  width: 100%;
+}
+
+}
